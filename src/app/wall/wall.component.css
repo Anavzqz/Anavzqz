@@ -1,0 +1,24 @@
+h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 2.5em;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+p {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
+    padding: 0%;
+    margin: 0%;
+}
+.links {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+}
+
+.responsive-img {
+    width: 10em;
+    height: 10em;
+}
