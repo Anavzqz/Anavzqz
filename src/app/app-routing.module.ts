@@ -2,11 +2,18 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { CommonModule } from '@angular/common';
-import { WallComponent } from './wall/wall.component';
+import { HeaderComponent } from './header/header.component';
+import { AboutmeComponent } from './aboutme/aboutme.component';
+import { ProyectsComponent } from './proyects/proyects.component';
+import { SkillsComponent } from './skills/skills.component';
 import { FooterComponent } from './footer/footer.component';
 
+
 const routes: Routes = [
-  {path: '', component: WallComponent},
+  {path: '', component: HeaderComponent},
+  {path: 'aboutme', component: AboutmeComponent},
+  {path: 'proyects', component: ProyectsComponent},
+  {path: 'skills', component: SkillsComponent},
   {path: 'footer', component: FooterComponent}
 ];
 
