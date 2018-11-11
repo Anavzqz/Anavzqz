@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooterComponent } from './footer/footer.component';
-import { HeaderComponent } from './header/header.component';
-import { AboutmeComponent } from './aboutme/aboutme.component';
-import { ProyectsComponent } from './proyects/proyects.component';
-import { SkillsComponent } from './skills/skills.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { AboutmeComponent } from './components/aboutme/aboutme.component';
+import { ProyectsComponent } from './components/proyects/proyects.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { CoursesComponent } from './components/courses/courses.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { SkillsComponent } from './skills/skills.component';
     HeaderComponent,
     AboutmeComponent,
     ProyectsComponent,
-    SkillsComponent
+    SkillsComponent,
+    NavbarComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule,

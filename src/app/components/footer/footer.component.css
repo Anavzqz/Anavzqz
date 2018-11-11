@@ -1,0 +1,34 @@
+.foo {
+    background-color: #080808;
+    color: #EEE4D4;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 5em;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+p {
+    font-family: 'Arbutus Slab', serif;
+    font-size: 2em;
+    padding-bottom: 4%;
+    margin: 0%;
+}
+.links {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+}
+
+.img {
+    width: 5em;
+    height: 5em;
+    margin: 2%;
+}
