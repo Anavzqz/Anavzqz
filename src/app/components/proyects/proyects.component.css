@@ -30,3 +30,6 @@ figure {
 .img:hover {
     filter: opacity(.5);
 }
+.btn {
+    padding-top: 2%;
+}
